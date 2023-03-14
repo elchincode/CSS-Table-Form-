@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/example.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Links To Other Pages</h1>
+
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li>
+
+                    <a href="index.html">XSL</a>
+
+                </li>
+                <li>
+
+                    <a href="tableEO.html">Student Marks</a>
+
+                </li>
+              
+               
+            </ul>
+        </nav>
+
+    </header>
+
+    <form>
+        <fieldset>
+            <legend >Personal Details</legend>
+
+            <label for="salutation">Salutation</label> <br>
+            <select name="salutation" id="salutation">
+                <option value="salutation">--None-- </option>
+            </select>
+
+            <p>
+
+                <label for="name">First Name:</label>
+                <input type="text" name="name" id="name" required placeholder="Your Name">
+            </p>
+
+            <p>
+
+                <label for="last name">Last Name:</label>
+                <input type="text" name="last name" id="last name" required placeholder="Your Name">
+
+            </p>
+
+            <p>
+                <label for="gender">Gender:</label>
+
+                <input type="radio" name="gender" id="Male">
+                <label for="Male">Male</label>
+
+                <input type="radio" name="gender" id="Male">
+                <label for="Female">Female</label>
+
+            </p>
+
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required placeholder="example@gmail.com">
+
+            </p>
+            <p>
+                <label for="dateOfBirth">Date of Birth</label>
+                <input type="date">
+
+            </p>
+
+            <p>
+                <label for="Adress">Adress:</label>
+                <br>
+                <textarea name="Adress" id="" cols="30" rows="10"></textarea>
+            </p>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
